@@ -1,0 +1,31 @@
+{
+  "name": "solid-oop",
+  "version": "1.0.0",
+  "description": "Repositório baseado no livro **\"ORIENTAÇÃO A OBJETOS E SOLID PARA NINJAS\"** (Casa do Código), adaptando os exemplos de Java para TypeScript. Estudos do Clube de Leitura Dev.",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest run",
+    "cap02:problema": "ts-node src/cap02-coesao-srp/problema/index.ts",
+    "cap02:correcao": "ts-node src/cap02-coesao-srp/correcao/index.ts",
+    "cap03:problema": "ts-node src/cap03-acoplamento-dip/problema/index.ts",
+    "cap03:correcao": "ts-node src/cap03-acoplamento-dip/correcao/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giseletoledo/solid-oop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/giseletoledo/solid-oop/issues"
+  },
+  "homepage": "https://github.com/giseletoledo/solid-oop#readme",
+  "devDependencies": {
+    "@types/node": "^25.2.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.18"
+  }
+}
