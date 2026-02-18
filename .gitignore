@@ -1,5 +1,5 @@
 # Gera o .gitignore na raiz do projeto
-cat > /workspaces/solid-oop/.gitignore << 'EOF'
+# cat > /workspaces/solid-oop/.gitignore << 'EOF'
 # Dependências
 node_modules/
 
