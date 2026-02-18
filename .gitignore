@@ -1,0 +1,30 @@
+# Gera o .gitignore na raiz do projeto
+cat > /workspaces/solid-oop/.gitignore << 'EOF'
+# Dependências
+node_modules/
+
+# Build
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Resultados de testes
+coverage/
+resultado.txt
+
+# TypeScript cache
+*.tsbuildinfo
+
+# VS Code
+.vscode/
+
+# Ambiente
+.env
+.env.local
+
+# MacOS
+.DS_Store
+EOF
